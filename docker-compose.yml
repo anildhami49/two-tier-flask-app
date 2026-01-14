@@ -14,7 +14,7 @@ services:
       - mysql_data:/var/lib/mysql
 
   flask-app:
-    build: .
+    image: anildhami007/my-app:latest
     container_name: flask-app
     restart: always
     ports:
